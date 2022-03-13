@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>LogIn</title>
+        <body>
+            <div class="topnav">
+                <a class="active" href="#login">LogIn</a>
+                <a href="edu.html">Education</a>
+                <a href="index.html">Home</a>
+              </div>
+<form >
+  
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="tel"><b>Telephone </b></label><br>
+        <input type="text" placeholder ="Enter Telephone Number"name = 'Telephone Number' required><br><br>
+    
+        <label for="gen"><b>Gender</b></label>
+        <input type="radio" id="male" name="Gender" value="Male">Male
+             <input type="radio" id="female" name="Gender" value="Female">Female
+              <input type="radio" id="other" name="Gender" value="Other">Other<br><br>
+<label for="id"><b>ID Type</b></label>
+
+<select name="idt" width ="174" height ="300">
+  <option value="">--Please choose an option--</option>
+    <option value="Ghana Card">Ghana Card</option>
+     <option value="Voter's ID">Voter's Id</option>
+     <option value="Passport">Passport</option>
+ <option value="Driver's license">Driver's license</option>
+ <option value="NHIS">NHIS</option>
+ </select>
+</div>
+<label for="Number"><b>ID Number </b></label><br>
+        <input type="text" placeholder ="Enter ID Number"name = 'ID Number' required><br><br>
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+  
+    <div class="container" style="background-color:azure">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</body>
+    </head>
+  </html>
